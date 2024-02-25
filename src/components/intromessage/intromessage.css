@@ -1,0 +1,35 @@
+.intromessage{
+  height: 100svh;
+  width: 100%;
+  background-color: bisque;
+  margin:auto;
+}
+.name{
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+  color: transparent;
+  font-weight: 700;
+  color:black;
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(13, 196, 135); */
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin: auto;
+}
+.name p {
+  margin:0 auto;
+  width:100%;
+  text-align: center;
+  
+}
+h1.hello {
+  margin-top: 100px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(243, 241, 241);
+  text-transform: uppercase;
+}

@@ -1,0 +1,89 @@
+.contact-section {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 37, 95, 0.5);
+}
+
+.form {
+  width: 280px;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+.form h1 {
+  color: rgb(30, 110, 231);
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: gray;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+label span {
+  color: red;
+}
+input {
+  padding: 8px 4px;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.submit-btn {
+  position: relative;
+  padding: 8px 0;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  background-color: rgb(59, 46, 238);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.submit-btn::after{
+  position: absolute;
+  content:"Submit";
+  width:100%;
+  height: 100%;
+  top:0;
+  left:-100%;
+  background-color: rgb(124, 122, 223);
+  display: flex;
+  justify-content: center;
+  transition: 1s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.submit-btn:hover.submit-btn::after{
+  transform: translateX(100%);
+}
+span.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: none;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+

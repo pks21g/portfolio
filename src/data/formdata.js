@@ -1,0 +1,53 @@
+export const formData = [
+  {
+    id: 1,
+    name: "userName",
+    type: "text",
+    placeholder: "Username",
+    label: "Username",
+    errorMessage:
+      "Username should be 3-16 characters and should not include special characters",
+    pattern: `^[A-Za-z0-9]{3,16}$`,
+    required: true,
+  },
+  {
+    id: 2,
+    name: "email",
+    type: "email",
+    placeholder: "Email",
+    label: "Email",
+    errorMessage: "It should be a vaild email address",
+    required: true,
+  },
+  {
+    id: 3,
+    name: "birthday",
+    type: "date",
+    placeholder: "Birthday",
+    label: "Birthday",
+    required: true,
+  },
+  {
+    id: 4,
+    name: "password",
+    type: "password",
+    placeholder: "Password",
+    label: "Password",
+    errorMessage:
+      "Password should be 8-20 characters and include atleast 1 uppercase, 1 lowercase 1, special character and one number",
+    // pattern: `^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$`,
+    required: true,
+    autoComplete:false.toString(),
+  },
+  {
+    id: 5,
+    name: "confirmPassword",
+    type: "password",
+    placeholder: "Confirm Password",
+    label: "Confirm Password",
+    errorMessage: "Passwords dont match!",
+    // pattern: `^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$`,
+    required: true,
+    autoComplete:false.toString(),
+  },
+];
