@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95ce2794.css",
-    "main.js": "/portfolio/static/js/main.487b0748.js",
+    "main.css": "/portfolio/static/css/main.02326527.css",
+    "main.js": "/portfolio/static/js/main.b3e476c4.js",
     "static/media/littlelemon-mob.png": "/portfolio/static/media/littlelemon-mob.de51cad92aa36ef51a96.png",
     "static/media/bandapp-mob.png": "/portfolio/static/media/bandapp-mob.c4303e0638df87c9c546.png",
     "static/media/bandapp-laptop_.png": "/portfolio/static/media/bandapp-laptop_.4d78651c36b28e863978.png",
@@ -10,11 +10,11 @@
     "static/media/mobile.svg": "/portfolio/static/media/mobile.bd87e5dca5998838119b02b4cccf650b.svg",
     "static/media/laptop.svg": "/portfolio/static/media/laptop.26bef8e8ed41eeaa690049b4810de16a.svg",
     "index.html": "/portfolio/index.html",
-    "main.95ce2794.css.map": "/portfolio/static/css/main.95ce2794.css.map",
-    "main.487b0748.js.map": "/portfolio/static/js/main.487b0748.js.map"
+    "main.02326527.css.map": "/portfolio/static/css/main.02326527.css.map",
+    "main.b3e476c4.js.map": "/portfolio/static/js/main.b3e476c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.95ce2794.css",
-    "static/js/main.487b0748.js"
+    "static/css/main.02326527.css",
+    "static/js/main.b3e476c4.js"
   ]
 }
